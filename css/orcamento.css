@@ -1,0 +1,131 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image:url('../img/backbody.jpg');
+}
+
+#titulo{
+    color:#ffffff;
+    font-weight:bold;
+    text-align: center;
+    
+}
+
+
+header{
+    background-image:url('../img/landscapes.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#b3e0ff;
+
+}
+
+
+header h1{
+    padding-top: 15px;
+}
+
+nav{
+    padding: 10px 0;
+    background-color: #ff0099;
+
+}
+
+
+nav ul li a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:#ff6699;
+}
+
+
+nav ul li{
+    display:inline;
+    padding-right: 5px
+}
+
+/*div.nome{
+    background-color:#3366ff;
+    color:#ff6699;
+    max-width:20%;
+    max-height:20%;
+    padding:10px 20px;
+    } 
+    
+    div.email{
+    background-color:red;
+    color:#ff6699;
+    max-width:20%;
+    max-height:20%;
+    padding:10px 20px;
+    } 
+
+   div.descricao{
+    background-color: #3366ff;
+    color:#ff6699;
+    max-width:20%;
+    max-height:20%;
+    padding:10px 20px;
+    } */
+
+
+/*.nome{
+background: red;
+}
+
+.box.email{background: yellow}
+
+.box{
+border: green 5px dashed;
+}*/
+
+h2{
+    text-decoration: underline;
+}
+
+label.box{
+background-color:purple;
+border: green 5px solid; 
+}
+
+.teste img{
+max-width:200px;
+max-height:100px;
+border-radius:50%;
+
+}
+
+a{
+    background-color: pink;
+    width:100px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.paragrafoteste{
+    background-color: yellow;
+    height: 500px;
+    display: inline-block; /*tamanho do conteudo*/
+}
+
+
+label{
+    width:200px;
+    display:inline-block;
+}
+
+input{}
+
+.rodape{
+    background-color:transparent;
+    display:inline;
+    text-decoration: none;
+}
+    
+a:hover{
+color:green;
+
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Formulário- Briefing</title>
+    <link rel="icon" href="img/money-bag.png">
+    <link href=<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Open+Sans+Condensed:300|Oswald|Roboto+Condensed|Wendy+One"
+        rel="stylesheet">>
+    <link rel="stylesheet" href="css\orcamento.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img src="img/money-bag.png" alt="saco de dinheiro">
+        <h1 id="titulo">{REPROGRAMA}</h1>
+
+        <nav>
+
+            <ul>
+                <li> <a href="index.html" target="_self"> orçamento </a></li>
+                <li> <a href="conteudo.html" target="_self">conteúdo</a></li>
+            </ul>
+        </nav>
+
+        <a href="">site 1</a>
+        <a href="">site 2</a>
+        <p class="paragrafoteste">sjkfdsfsdfsdftestesteeeeeeesdkfsdkf</p>
+    </header>
+
+
+    <figure class="teste">
+        <img src="img/wecandoit.png" alt="wecandoit">
+        <figcaption> wecandoit</figcaption>
+    </figure>
+
+
+    <h2> Preencha seu orçamento </h2>
+
+    <form action="/#">
+        <div class="nome box" id="nome">
+
+            <label for="nome" class="box"> Nome </label>
+            <input id="nome" name="nome" type="date" required placeholder="digite seu nome">
+        </div>
+        <br>
+        <br>
+        <div class="email box" id="email">
+            <label for="email" class="box"> Email </label>
+            <input id="email" name="email" type="email">
+        </div>
+
+        <br>
+        <br>
+        <div class="descricao box" id="descricao">
+            <label for="descrição" class="box">Descrição</label>
+            <textarea id="descrição" cols="50" rows="10" placeholder="Digite uma descrição"></textarea>
+
+        </div>
+        <br>
+        <br>
+        <div>
+
+        </div>
+        <label for="material"> Material </label>
+        <select name="material" id="material" multiple>
+            <option value="emailmkt"> email Marketing </option>
+            <option value="landingpage">landing page </option>
+            <option value="mobile"> mobile </option>
+            <option value="outros"> outros </option>
+        </select> <br> <br>
+        <div>
+
+        </div>
+
+        <spam class="box"> Voce precisa de: </spam>
+        <div>
+            <input type="checkbox" id="designer" name="profissionais">
+            <label for="designer"> Designer</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="desenvolvedor" name="profissionais">
+            <label for="desenvolvedor"> desenvolvedor</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="gerente" name="profissionais">
+            <label for="gerente">gerente</label>
+        </div>
+
+
+        <label for="orçamento"> Orçamento: </label>
+        <select id="orçamento">
+            <option value="1"> Menos de R$1000 </option>
+            <option value="2"> R$100- R$300 </option>
+            <option value="3"> R$300- R$500 </option>
+            <option value="4"> Mais de R$500 </option>
+        </select>
+        <br>
+        <br>
+        <div>
+
+        </div>
+        <label for="disponibilidade"> Disponibilidade </label>
+        <br>
+        <input type="radio" id="integral" value="integral" name="disponibilidade">
+        <label for="integral"> Periodo Integral </label>
+
+        <input type="radio" id="meioPeriodo" value="meioPeriodo" name="disponibilidade">
+        <label for="meioPeriodo"> Meio Periodo</label>
+
+        <input type="radio" id="ocasional" value="ocasional" name="disponibilidade">
+        <label for="ocasional">Ocasional</label> <br> <br>
+
+        <label for="prazo">Prazo</label><br>
+        <input type="date" id="prazo" name="prazo"><br><br>
+        <label for="file"> arquivo complementar</label><br>
+        <input type="file" id="file" name="file" accept="image/">
+        <br><br>
+        <div>
+
+        </div>
+        <!-- <input type="submit" value="enviar"> -->
+        <button type="submit">enviar</button>
+
+    </form>
+    <footer>
+        <p>Made with
+            <3 by <a href="mailto:denisegsmc@gmail.com" target="_blank" class="rodape">Denise Cavalcante</a>-2017</p>
+    </footer>
+</body>
+</htmal>
